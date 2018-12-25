@@ -1,0 +1,36 @@
+.root {
+	-fx-background-color: #050B11;
+}
+
+.pane {
+	-fx-background-color: #050B11;
+}
+
+#mainPane_start {
+	-fx-background-image: url("../media/tetris-logo.jpg");
+	-fx-background-repeat: no-repeat;
+    -fx-background-size: 850 600; 
+    -fx-background-position: center center;
+}
+
+.label {
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #cedaea;
+}
+
+.button {
+	-fx-border-color: #59707D;
+	-fx-border-width: 4;
+	-fx-background-color: #cedaea;
+	-fx-text-fill: black;
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+	-fx-min-width: 174;
+	-fx-min-height: 30;
+}
+
+.button:hover {
+    -fx-background-color: #A6B2AA;
+}

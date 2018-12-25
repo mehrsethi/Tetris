@@ -1,0 +1,43 @@
+.root {
+	-fx-background-color: #050B11;
+}
+
+.pane {
+	-fx-background-color: #050B11;
+}
+
+HBox {
+	-fx-padding: 10 10 10 10;
+	-fx-spacing: 10;
+	-fx-alignment: center;
+}
+
+ComboBox {
+	-fx-font: 14px "Helvetica";
+}
+
+#title_settings {
+	-fx-font: 80px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #A6B2AA;
+}
+
+.label {
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #cedaea;
+}
+
+.button {
+	-fx-border-color: #59707D;
+	-fx-border-width: 4;
+	-fx-background-color: #cedaea;
+	-fx-text-fill: black;
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+}
+
+.button:hover {
+    -fx-background-color: #A6B2AA;
+}

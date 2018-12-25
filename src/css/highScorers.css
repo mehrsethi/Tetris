@@ -1,0 +1,57 @@
+.root {
+	-fx-background-color: #050B11;
+}
+
+#mainPane_highScorers {
+	-fx-background-color: #050B11;
+	-fx-spacing: 30;
+	-fx-alignment: center;
+}
+
+#title_highScorers {
+	-fx-font: 80px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #A6B2AA;
+}
+
+HBox {
+	-fx-alignment: center;
+	-fx-spacing: 10;
+}
+
+#nameTitle {
+	-fx-text-fill: #A6B2AA;
+	-fx-font: 25px "Helvetica";
+}
+
+#scoreTitle {
+	-fx-text-fill: #A6B2AA;
+	-fx-font: 25px "Helvetica";
+}
+
+#timeTitle {
+	-fx-text-fill: #A6B2AA;
+	-fx-font: 25px "Helvetica";
+}
+
+.label {
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #cedaea;
+	-fx-alignment: center;
+	-fx-min-width: 150;
+}
+
+.button {
+	-fx-border-color: #59707D;
+	-fx-border-width: 4;
+	-fx-background-color: #cedaea;
+	-fx-text-fill: black;
+	-fx-font: 16px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+}
+
+.button:hover {
+    -fx-background-color: #A6B2AA;
+}

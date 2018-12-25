@@ -1,0 +1,41 @@
+.root {
+	-fx-background-color: #050B11;
+}
+
+.pane {
+	-fx-background-color: #050B11;
+}
+
+#mainPane_instructions {
+	-fx-background-color: #050B11;
+}
+
+#title_instructions {
+	-fx-font: 80px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #A6B2AA;
+}
+
+
+.label {
+	-fx-font: 18px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #cedaea;
+	-fx-padding: 0 25 0 25;
+	-fx-wrap-text: true;
+	-fx-text-alignment: center;
+}
+
+.button {
+	-fx-border-color: #59707D;
+	-fx-border-width: 4;
+	-fx-background-color: #cedaea;
+	-fx-text-fill: black;
+	-fx-font: 18px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+}
+
+.button:hover {
+    -fx-background-color: #A6B2AA;
+}

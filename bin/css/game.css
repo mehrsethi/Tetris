@@ -1,0 +1,67 @@
+.root {
+	-fx-background-color: #050B11;
+}
+
+.pane {
+	-fx-background-color: #050B11;
+}
+
+StackPane {
+	-fx-padding: 10;
+}
+
+#left {
+	-fx-background-color: #A6B2AA;
+	-fx-min-width: 200;
+	-fx-spacing: 10;
+	-fx-alignment: top-center;
+}
+
+#right {
+	-fx-background-color: #A6B2AA;
+	-fx-min-width: 200;
+	-fx-spacing: 10;
+	-fx-alignment: top-center;
+}
+
+#buttonbox {
+	-fx-spacing: -5;
+	-fx-alignment: bottom-center;
+	-fx-padding: 10;
+}
+
+#paneL {
+	-fx-background-color: #59707D;
+	-fx-min-width: 180;
+	-fx-min-height: 100;
+}
+
+#paneR {
+	-fx-background-color: #59707D;
+	-fx-min-width: 100;
+	-fx-min-height: 100;
+}
+
+.label {
+	-fx-font: 18px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-text-fill: #cedaea;
+	-fx-min-width: 200;
+	-fx-alignment: center;
+}
+
+.button {
+	-fx-border-color: #59707D;
+	-fx-border-width: 4;
+	-fx-background-color: #cedaea;
+	-fx-text-fill: black;
+	-fx-font: 14px "Helvetica";
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+	-fx-min-width: 180;
+    -fx-min-height: 30;
+}
+
+.button:hover {
+    -fx-background-color: #A6B2AA;
+}
